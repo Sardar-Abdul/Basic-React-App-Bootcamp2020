@@ -32,7 +32,7 @@ jobs:
     - uses: borales/actions-yarn@v2.0.0
       with:
           cmd: build # will run `yarn build` command
-    - name: Build react app
+    - name: Build a basi react app
       run: yarn build
 
     # Runs a set of commands using the runners shell
