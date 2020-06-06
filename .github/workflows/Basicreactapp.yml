@@ -29,10 +29,8 @@ jobs:
       with:
           cmd: install # will run `yarn install` command
     # Runs a single command using the runners shell
-    - uses: borales/actions-yarn@v2.0.0
-      with:
-          cmd: build # will run `yarn build` command
-    - name: Build a basi react app
+
+    - name: Build a basic react app
       run: yarn build
 
     # Runs a set of commands using the runners shell
