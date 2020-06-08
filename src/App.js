@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          This basic react app is developed by Abdul!
+          This basic react app is developed by  Ninja Coder!
         </p>
         <a
           className="App-link"
